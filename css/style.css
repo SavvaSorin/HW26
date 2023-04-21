@@ -1,0 +1,41 @@
+body {
+  background-color: #4c4b58;
+  color: #fff;
+}
+
+.container {
+  padding: 100px 100px 50vh;
+  height: 100%;
+}
+
+.transition {
+  height: 100%;
+}
+
+.block {
+  border: 5px solid black;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  background: linear-gradient(rgb(96, 170, 219), pink, rgb(96, 170, 219));
+}
+
+
+
+
+
+.block {
+  transition-duration: 3s, 5s;
+  transition-property: border-color, border-radius;
+  transition-delay: 2s;
+
+}
+
+.block:hover {
+  border-color:white;
+  border-radius: 300px;
+}
